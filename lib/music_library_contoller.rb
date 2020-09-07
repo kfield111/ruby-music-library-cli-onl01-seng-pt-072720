@@ -22,6 +22,8 @@ class MusicLibraryController
 
     input = gets.strip
 
+    input = ""
+
     until input == "exit"
 
       case input
